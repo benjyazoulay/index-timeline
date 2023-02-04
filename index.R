@@ -3,6 +3,7 @@ library(stringr)
 library(ggplot2)
 library(plotly)
 library(ggrepel)
+library(ggrepel)
 index<-readLines("C:/Users/Benjamin/Desktop/index.txt")
 index=str_replace_all(index,"([[:digit:]]) ([[:alpha:]])", "\\1\n\\2")
 
